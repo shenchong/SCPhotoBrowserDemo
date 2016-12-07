@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D284D2521DF7FBC100C2919A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D284D2511DF7FBC100C2919A /* main.m */; };
+		D284D2551DF7FBC100C2919A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D284D2541DF7FBC100C2919A /* AppDelegate.m */; };
+		D284D2581DF7FBC100C2919A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D284D2571DF7FBC100C2919A /* ViewController.m */; };
+		D284D25B1DF7FBC100C2919A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D284D2591DF7FBC100C2919A /* Main.storyboard */; };
+		D284D25D1DF7FBC100C2919A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D284D25C1DF7FBC100C2919A /* Assets.xcassets */; };
+		D284D2601DF7FBC100C2919A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D284D25E1DF7FBC100C2919A /* LaunchScreen.storyboard */; };
+		D284D26B1DF7FBC200C2919A /* SCPhotoBrowserDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D284D26A1DF7FBC200C2919A /* SCPhotoBrowserDemoTests.m */; };
+		D284D2761DF7FBC200C2919A /* SCPhotoBrowserDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D284D2751DF7FBC200C2919A /* SCPhotoBrowserDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D284D2671DF7FBC200C2919A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D284D2451DF7FBC100C2919A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D284D24C1DF7FBC100C2919A;
+			remoteInfo = SCPhotoBrowserDemo;
+		};
+		D284D2721DF7FBC200C2919A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D284D2451DF7FBC100C2919A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D284D24C1DF7FBC100C2919A;
+			remoteInfo = SCPhotoBrowserDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D284D24D1DF7FBC100C2919A /* SCPhotoBrowserDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCPhotoBrowserDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D284D2511DF7FBC100C2919A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D284D2531DF7FBC100C2919A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D284D2541DF7FBC100C2919A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D284D2561DF7FBC100C2919A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D284D2571DF7FBC100C2919A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D284D25A1DF7FBC100C2919A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D284D25C1DF7FBC100C2919A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D284D25F1DF7FBC100C2919A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D284D2611DF7FBC100C2919A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D284D2661DF7FBC200C2919A /* SCPhotoBrowserDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SCPhotoBrowserDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D284D26A1DF7FBC200C2919A /* SCPhotoBrowserDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCPhotoBrowserDemoTests.m; sourceTree = "<group>"; };
+		D284D26C1DF7FBC200C2919A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D284D2711DF7FBC200C2919A /* SCPhotoBrowserDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SCPhotoBrowserDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D284D2751DF7FBC200C2919A /* SCPhotoBrowserDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCPhotoBrowserDemoUITests.m; sourceTree = "<group>"; };
+		D284D2771DF7FBC200C2919A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D284D24A1DF7FBC100C2919A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D284D2631DF7FBC200C2919A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D284D26E1DF7FBC200C2919A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D284D2441DF7FBC100C2919A = {
+			isa = PBXGroup;
+			children = (
+				D284D24F1DF7FBC100C2919A /* SCPhotoBrowserDemo */,
+				D284D2691DF7FBC200C2919A /* SCPhotoBrowserDemoTests */,
+				D284D2741DF7FBC200C2919A /* SCPhotoBrowserDemoUITests */,
+				D284D24E1DF7FBC100C2919A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D284D24E1DF7FBC100C2919A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D284D24D1DF7FBC100C2919A /* SCPhotoBrowserDemo.app */,
+				D284D2661DF7FBC200C2919A /* SCPhotoBrowserDemoTests.xctest */,
+				D284D2711DF7FBC200C2919A /* SCPhotoBrowserDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D284D24F1DF7FBC100C2919A /* SCPhotoBrowserDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D284D2531DF7FBC100C2919A /* AppDelegate.h */,
+				D284D2541DF7FBC100C2919A /* AppDelegate.m */,
+				D284D2561DF7FBC100C2919A /* ViewController.h */,
+				D284D2571DF7FBC100C2919A /* ViewController.m */,
+				D284D2591DF7FBC100C2919A /* Main.storyboard */,
+				D284D25C1DF7FBC100C2919A /* Assets.xcassets */,
+				D284D25E1DF7FBC100C2919A /* LaunchScreen.storyboard */,
+				D284D2611DF7FBC100C2919A /* Info.plist */,
+				D284D2501DF7FBC100C2919A /* Supporting Files */,
+			);
+			path = SCPhotoBrowserDemo;
+			sourceTree = "<group>";
+		};
+		D284D2501DF7FBC100C2919A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D284D2511DF7FBC100C2919A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D284D2691DF7FBC200C2919A /* SCPhotoBrowserDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D284D26A1DF7FBC200C2919A /* SCPhotoBrowserDemoTests.m */,
+				D284D26C1DF7FBC200C2919A /* Info.plist */,
+			);
+			path = SCPhotoBrowserDemoTests;
+			sourceTree = "<group>";
+		};
+		D284D2741DF7FBC200C2919A /* SCPhotoBrowserDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D284D2751DF7FBC200C2919A /* SCPhotoBrowserDemoUITests.m */,
+				D284D2771DF7FBC200C2919A /* Info.plist */,
+			);
+			path = SCPhotoBrowserDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D284D24C1DF7FBC100C2919A /* SCPhotoBrowserDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D284D27A1DF7FBC200C2919A /* Build configuration list for PBXNativeTarget "SCPhotoBrowserDemo" */;
+			buildPhases = (
+				D284D2491DF7FBC100C2919A /* Sources */,
+				D284D24A1DF7FBC100C2919A /* Frameworks */,
+				D284D24B1DF7FBC100C2919A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCPhotoBrowserDemo;
+			productName = SCPhotoBrowserDemo;
+			productReference = D284D24D1DF7FBC100C2919A /* SCPhotoBrowserDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D284D2651DF7FBC200C2919A /* SCPhotoBrowserDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D284D27D1DF7FBC200C2919A /* Build configuration list for PBXNativeTarget "SCPhotoBrowserDemoTests" */;
+			buildPhases = (
+				D284D2621DF7FBC200C2919A /* Sources */,
+				D284D2631DF7FBC200C2919A /* Frameworks */,
+				D284D2641DF7FBC200C2919A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D284D2681DF7FBC200C2919A /* PBXTargetDependency */,
+			);
+			name = SCPhotoBrowserDemoTests;
+			productName = SCPhotoBrowserDemoTests;
+			productReference = D284D2661DF7FBC200C2919A /* SCPhotoBrowserDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D284D2701DF7FBC200C2919A /* SCPhotoBrowserDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D284D2801DF7FBC200C2919A /* Build configuration list for PBXNativeTarget "SCPhotoBrowserDemoUITests" */;
+			buildPhases = (
+				D284D26D1DF7FBC200C2919A /* Sources */,
+				D284D26E1DF7FBC200C2919A /* Frameworks */,
+				D284D26F1DF7FBC200C2919A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D284D2731DF7FBC200C2919A /* PBXTargetDependency */,
+			);
+			name = SCPhotoBrowserDemoUITests;
+			productName = SCPhotoBrowserDemoUITests;
+			productReference = D284D2711DF7FBC200C2919A /* SCPhotoBrowserDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D284D2451DF7FBC100C2919A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "沈冲";
+				TargetAttributes = {
+					D284D24C1DF7FBC100C2919A = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					D284D2651DF7FBC200C2919A = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D284D24C1DF7FBC100C2919A;
+					};
+					D284D2701DF7FBC200C2919A = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D284D24C1DF7FBC100C2919A;
+					};
+				};
+			};
+			buildConfigurationList = D284D2481DF7FBC100C2919A /* Build configuration list for PBXProject "SCPhotoBrowserDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D284D2441DF7FBC100C2919A;
+			productRefGroup = D284D24E1DF7FBC100C2919A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D284D24C1DF7FBC100C2919A /* SCPhotoBrowserDemo */,
+				D284D2651DF7FBC200C2919A /* SCPhotoBrowserDemoTests */,
+				D284D2701DF7FBC200C2919A /* SCPhotoBrowserDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D284D24B1DF7FBC100C2919A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D284D2601DF7FBC100C2919A /* LaunchScreen.storyboard in Resources */,
+				D284D25D1DF7FBC100C2919A /* Assets.xcassets in Resources */,
+				D284D25B1DF7FBC100C2919A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D284D2641DF7FBC200C2919A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D284D26F1DF7FBC200C2919A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D284D2491DF7FBC100C2919A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D284D2581DF7FBC100C2919A /* ViewController.m in Sources */,
+				D284D2551DF7FBC100C2919A /* AppDelegate.m in Sources */,
+				D284D2521DF7FBC100C2919A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D284D2621DF7FBC200C2919A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D284D26B1DF7FBC200C2919A /* SCPhotoBrowserDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D284D26D1DF7FBC200C2919A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D284D2761DF7FBC200C2919A /* SCPhotoBrowserDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D284D2681DF7FBC200C2919A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D284D24C1DF7FBC100C2919A /* SCPhotoBrowserDemo */;
+			targetProxy = D284D2671DF7FBC200C2919A /* PBXContainerItemProxy */;
+		};
+		D284D2731DF7FBC200C2919A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D284D24C1DF7FBC100C2919A /* SCPhotoBrowserDemo */;
+			targetProxy = D284D2721DF7FBC200C2919A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D284D2591DF7FBC100C2919A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D284D25A1DF7FBC100C2919A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D284D25E1DF7FBC100C2919A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D284D25F1DF7FBC100C2919A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D284D2781DF7FBC200C2919A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D284D2791DF7FBC200C2919A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D284D27B1DF7FBC200C2919A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SCPhotoBrowserDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shenchong.SCPhotoBrowserDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D284D27C1DF7FBC200C2919A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SCPhotoBrowserDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shenchong.SCPhotoBrowserDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D284D27E1DF7FBC200C2919A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SCPhotoBrowserDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shenchong.SCPhotoBrowserDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SCPhotoBrowserDemo.app/SCPhotoBrowserDemo";
+			};
+			name = Debug;
+		};
+		D284D27F1DF7FBC200C2919A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SCPhotoBrowserDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shenchong.SCPhotoBrowserDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SCPhotoBrowserDemo.app/SCPhotoBrowserDemo";
+			};
+			name = Release;
+		};
+		D284D2811DF7FBC200C2919A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SCPhotoBrowserDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shenchong.SCPhotoBrowserDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SCPhotoBrowserDemo;
+			};
+			name = Debug;
+		};
+		D284D2821DF7FBC200C2919A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SCPhotoBrowserDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shenchong.SCPhotoBrowserDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SCPhotoBrowserDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D284D2481DF7FBC100C2919A /* Build configuration list for PBXProject "SCPhotoBrowserDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D284D2781DF7FBC200C2919A /* Debug */,
+				D284D2791DF7FBC200C2919A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D284D27A1DF7FBC200C2919A /* Build configuration list for PBXNativeTarget "SCPhotoBrowserDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D284D27B1DF7FBC200C2919A /* Debug */,
+				D284D27C1DF7FBC200C2919A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D284D27D1DF7FBC200C2919A /* Build configuration list for PBXNativeTarget "SCPhotoBrowserDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D284D27E1DF7FBC200C2919A /* Debug */,
+				D284D27F1DF7FBC200C2919A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D284D2801DF7FBC200C2919A /* Build configuration list for PBXNativeTarget "SCPhotoBrowserDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D284D2811DF7FBC200C2919A /* Debug */,
+				D284D2821DF7FBC200C2919A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D284D2451DF7FBC100C2919A /* Project object */;
+}
